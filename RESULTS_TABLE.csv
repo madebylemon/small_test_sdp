@@ -1,0 +1,241 @@
+subset,pair,parent_id,child_id,edit_type,budget_ratio,budget_rollouts,policy,rmse,mae,bias,variance
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,38,Uniform,0.043779751788545665,0.038333333333333344,-0.034999999999999996,0.0006916666666666677
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,38,Parent-Guided (P-PGA),0.05552777082985894,0.05166666666666667,-0.041666666666666664,0.0013472222222222223
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,38,Parent-Guided (Trust-Calibrated),0.04594682917363406,0.04333333333333332,-0.03666666666666666,0.0007666666666666659
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,38,Child-Pilot (k=1),0.058689389538863344,0.05333333333333332,-0.046666666666666655,0.0012666666666666653
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,38,Child-Pilot (Debiased),0.08418902241503286,0.07703703703703706,-0.07629629629629633,0.0012666666666666653
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,38,Oracle (Neyman Hindsight),0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,45,Uniform,0.04533823502911816,0.04,-0.03333333333333334,0.0009444444444444451
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,45,Parent-Guided (P-PGA),0.04859126579037753,0.041666666666666685,-0.031666666666666676,0.001358333333333335
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,45,Parent-Guided (Trust-Calibrated),0.04859126579037753,0.041666666666666685,-0.031666666666666676,0.001358333333333335
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,45,Child-Pilot (k=1),0.0494413232473044,0.036666666666666646,-0.02666666666666666,0.001733333333333331
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,45,Child-Pilot (Debiased),0.09216196157034544,0.08222222222222224,-0.08222222222222224,0.001733333333333331
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,45,Oracle (Neyman Hindsight),0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,60,Uniform,0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,60,Parent-Guided (P-PGA),0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,60,Parent-Guided (Trust-Calibrated),0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,60,Child-Pilot (k=1),0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,60,Child-Pilot (Debiased),0.13832106148155,0.13277777777777783,-0.13277777777777783,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,60,Oracle (Neyman Hindsight),0.044409708648247434,0.038333333333333316,-0.021666666666666667,0.001502777777777778
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,75,Uniform,0.04516772583150634,0.03722222222222223,-0.013888888888888918,0.0018472222222222236
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,75,Parent-Guided (P-PGA),0.043033148291193556,0.03555555555555558,-0.006666666666666687,0.00180740740740741
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,75,Parent-Guided (Trust-Calibrated),0.043033148291193556,0.03555555555555558,-0.006666666666666687,0.00180740740740741
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,75,Child-Pilot (k=1),0.038849186082326854,0.032777777777777774,-0.005000000000000027,0.0014842592592592583
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,75,Child-Pilot (Debiased),0.14003355466983802,0.13462962962962965,-0.13462962962962965,0.001484259259259258
+stratified_30,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,75,Oracle (Neyman Hindsight),0.03967460238079361,0.03333333333333334,-5.551115123125783e-17,0.0015740740740740739
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,38,Uniform,0.04346134936801768,0.03666666666666668,-0.026666666666666693,0.0011777777777777778
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,38,Parent-Guided (P-PGA),0.05217491947499512,0.046666666666666703,-0.023333333333333362,0.0021777777777777793
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,38,Parent-Guided (Trust-Calibrated),0.05217491947499512,0.046666666666666703,-0.023333333333333362,0.0021777777777777793
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,38,Child-Pilot (k=1),0.05426273532033236,0.04666666666666667,-0.023333333333333327,0.0024000000000000002
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,38,Child-Pilot (Debiased),0.07214620881110934,0.06444444444444447,-0.052962962962963,0.0024000000000000002
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,38,Oracle (Neyman Hindsight),0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,45,Uniform,0.049999999999999996,0.04,-0.026666666666666672,0.0017888888888888885
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,45,Parent-Guided (P-PGA),0.05217491947499512,0.046666666666666703,-0.023333333333333362,0.0021777777777777793
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,45,Parent-Guided (Trust-Calibrated),0.05217491947499512,0.046666666666666703,-0.023333333333333362,0.0021777777777777793
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,45,Child-Pilot (k=1),0.05602578771323873,0.045000000000000026,-0.028333333333333356,0.002336111111111113
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,45,Child-Pilot (Debiased),0.0968166142256765,0.08611111111111115,-0.08388888888888893,0.002336111111111113
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,45,Oracle (Neyman Hindsight),0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,60,Uniform,0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,60,Parent-Guided (P-PGA),0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,60,Parent-Guided (Trust-Calibrated),0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,60,Child-Pilot (k=1),0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,60,Child-Pilot (Debiased),0.13704329315048905,0.1294444444444445,-0.1294444444444445,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,60,Oracle (Neyman Hindsight),0.0485912657903775,0.03833333333333333,-0.018333333333333333,0.002025
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,75,Uniform,0.04503085362035432,0.03722222222222219,-0.011666666666666724,0.0018916666666666654
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,75,Parent-Guided (P-PGA),0.04503085362035431,0.03722222222222219,-0.001666666666666694,0.002024999999999999
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,75,Parent-Guided (Trust-Calibrated),0.04503085362035431,0.03722222222222219,-0.001666666666666694,0.002024999999999999
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,75,Child-Pilot (k=1),0.039440531887330786,0.03111111111111111,-0.010000000000000054,0.0014555555555555554
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,75,Child-Pilot (Debiased),0.1447480190747463,0.13962962962962971,-0.13962962962962971,0.001455555555555555
+stratified_30,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,75,Oracle (Neyman Hindsight),0.03967460238079365,0.033333333333333326,-6.661338147750939e-17,0.0015740740740740771
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,38,Uniform,0.03415650255319872,0.03000000000000006,-0.020000000000000028,0.0007666666666666695
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,38,Parent-Guided (P-PGA),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,38,Parent-Guided (Trust-Calibrated),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,38,Child-Pilot (k=1),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,38,Child-Pilot (Debiased),0.04439039923881765,0.03962962962962967,-0.03962962962962967,0.00040000000000000094
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,38,Oracle (Neyman Hindsight),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,45,Uniform,0.02838231060987738,0.025000000000000043,-0.015000000000000013,0.0005805555555555576
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,45,Parent-Guided (P-PGA),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,45,Parent-Guided (Trust-Calibrated),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,45,Child-Pilot (k=1),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,45,Child-Pilot (Debiased),0.0685385356146273,0.06555555555555558,-0.06555555555555558,0.00040000000000000094
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,45,Oracle (Neyman Hindsight),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,60,Uniform,0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,60,Parent-Guided (P-PGA),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,60,Parent-Guided (Trust-Calibrated),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,60,Child-Pilot (k=1),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,60,Child-Pilot (Debiased),0.12275137976645278,0.12111111111111117,-0.12111111111111117,0.00040000000000000094
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,60,Oracle (Neyman Hindsight),0.022360679774997918,0.020000000000000028,-0.009999999999999998,0.0004000000000000009
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,75,Uniform,0.02324055629261326,0.020555555555555615,-0.0038888888888889417,0.0005250000000000018
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,75,Parent-Guided (P-PGA),0.01875771446237136,0.016666666666666774,-0.0066666666666667426,0.0003074074074074102
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,75,Parent-Guided (Trust-Calibrated),0.021516574145596813,0.016666666666666708,-3.3306690738754695e-17,0.0004629629629629652
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,75,Child-Pilot (k=1),0.021516574145596813,0.016666666666666708,-3.3306690738754695e-17,0.0004629629629629652
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,75,Child-Pilot (Debiased),0.13140321092301332,0.12962962962962968,-0.12962962962962968,0.0004629629629629652
+stratified_30,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,75,Oracle (Neyman Hindsight),0.021516574145596813,0.016666666666666708,-3.3306690738754695e-17,0.0004629629629629652
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,38,Uniform,0.023570226039551563,0.019999999999999973,-0.013333333333333308,0.00037777777777777744
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,38,Parent-Guided (P-PGA),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,38,Parent-Guided (Trust-Calibrated),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,38,Child-Pilot (k=1),0.024720661623652183,0.023333333333333296,-0.01666666666666663,0.00033333333333333316
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,38,Child-Pilot (Debiased),0.049766257485245886,0.04703703703703703,-0.0462962962962963,0.00033333333333333316
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,38,Oracle (Neyman Hindsight),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,45,Uniform,0.02173067468400882,0.01499999999999999,-0.008333333333333326,0.0004027777777777776
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,45,Parent-Guided (P-PGA),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,45,Parent-Guided (Trust-Calibrated),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,45,Child-Pilot (k=1),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,45,Child-Pilot (Debiased),0.06535751631045665,0.06222222222222225,-0.06222222222222225,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,45,Oracle (Neyman Hindsight),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,60,Uniform,0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,60,Parent-Guided (P-PGA),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,60,Parent-Guided (Trust-Calibrated),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,60,Child-Pilot (k=1),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,60,Child-Pilot (Debiased),0.11946382271747215,0.11777777777777784,-0.11777777777777784,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,60,Oracle (Neyman Hindsight),0.02108185106778919,0.01333333333333333,-0.006666666666666665,0.00039999999999999986
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,75,Uniform,0.021444732295131972,0.016111111111111097,-0.0038888888888888975,0.00044475308641975274
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,75,Parent-Guided (P-PGA),0.016666666666666673,0.01333333333333333,-2.2204460492503132e-17,0.00027777777777777805
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,75,Parent-Guided (Trust-Calibrated),0.016666666666666673,0.01333333333333333,-2.2204460492503132e-17,0.00027777777777777805
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,75,Child-Pilot (k=1),0.016666666666666673,0.01333333333333333,-2.2204460492503132e-17,0.00027777777777777805
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,75,Child-Pilot (Debiased),0.130696666582177,0.1296296296296297,-0.1296296296296297,0.000277777777777778
+stratified_30,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,75,Oracle (Neyman Hindsight),0.016666666666666673,0.01333333333333333,-2.2204460492503132e-17,0.00027777777777777805
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,38,Uniform,0.05,0.043333333333333335,-0.02666666666666666,0.0017888888888888898
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,38,Parent-Guided (P-PGA),0.04654746681256314,0.039999999999999994,-0.02,0.0017666666666666668
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,38,Parent-Guided (Trust-Calibrated),0.04654746681256314,0.039999999999999994,-0.02,0.0017666666666666668
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,38,Child-Pilot (k=1),0.03908679799852858,0.034999999999999996,-0.025,0.0009027777777777778
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,38,Child-Pilot (Debiased),0.06234720692419416,0.05537037037037036,-0.054629629629629604,0.0009027777777777777
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,38,Oracle (Neyman Hindsight),0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,45,Uniform,0.043461349368017654,0.03666666666666667,-0.023333333333333334,0.0013444444444444443
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,45,Parent-Guided (P-PGA),0.04654746681256314,0.039999999999999994,-0.02,0.0017666666666666668
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,45,Parent-Guided (Trust-Calibrated),0.03872983346207417,0.03333333333333333,-0.02,0.0011
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,45,Child-Pilot (k=1),0.03872983346207417,0.03333333333333333,-0.02,0.0011
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,45,Child-Pilot (Debiased),0.08251449554659253,0.07555555555555556,-0.07555555555555556,0.0010999999999999985
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,45,Oracle (Neyman Hindsight),0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,60,Uniform,0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,60,Parent-Guided (P-PGA),0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,60,Parent-Guided (Trust-Calibrated),0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,60,Child-Pilot (k=1),0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,60,Child-Pilot (Debiased),0.130111538095893,0.12611111111111112,-0.12611111111111112,0.0010250000000000003
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,60,Oracle (Neyman Hindsight),0.03535533905932738,0.028333333333333332,-0.015000000000000003,0.001025
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,75,Uniform,0.03552950434515441,0.029444444444444447,-0.010555555555555578,0.0011509259259259263
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,75,Parent-Guided (P-PGA),0.030580797654495315,0.02611111111111112,-0.00833333333333336,0.0008657407407407414
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,75,Parent-Guided (Trust-Calibrated),0.03205897343611892,0.02611111111111112,-0.011666666666666681,0.0008916666666666671
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,75,Child-Pilot (k=1),0.03374742788552764,0.02833333333333333,-0.005000000000000021,0.0011138888888888887
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,75,Child-Pilot (Debiased),0.13870481629381204,0.13462962962962968,-0.13462962962962968,0.0011138888888888887
+stratified_30,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,75,Oracle (Neyman Hindsight),0.03469443332443553,0.02888888888888887,-1.6653345369377347e-17,0.001203703703703703
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,125,Uniform,0.013601470508735456,0.01200000000000001,-0.01100000000000001,6.400000000000012e-05
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,125,Parent-Guided (P-PGA),0.014577379737113264,0.012500000000000011,-0.009500000000000008,0.00012225000000000023
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,125,Parent-Guided (Trust-Calibrated),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,125,Child-Pilot (k=1),0.014832396974191338,0.01100000000000001,-0.008000000000000007,0.00015600000000000027
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,125,Child-Pilot (Debiased),0.03789524221740839,0.0357777777777778,-0.0357777777777778,0.00015600000000000027
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.25,125,Oracle (Neyman Hindsight),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,150,Uniform,0.013874436925511621,0.012500000000000011,-0.008500000000000008,0.00012025000000000021
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,150,Parent-Guided (P-PGA),0.014577379737113264,0.012500000000000011,-0.009500000000000008,0.00012225000000000023
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,150,Parent-Guided (Trust-Calibrated),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,150,Child-Pilot (k=1),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,150,Child-Pilot (Debiased),0.06313590084340799,0.062055555555555586,-0.062055555555555586,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,1.5,150,Oracle (Neyman Hindsight),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,200,Uniform,0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,200,Parent-Guided (P-PGA),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,200,Parent-Guided (Trust-Calibrated),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,200,Child-Pilot (k=1),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,200,Child-Pilot (Debiased),0.11818470060371662,0.11761111111111115,-0.11761111111111115,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.0,200,Oracle (Neyman Hindsight),0.01332291259447424,0.01150000000000001,-0.006500000000000006,0.00013525000000000022
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,250,Uniform,0.012087642909645858,0.010666666666666703,-0.003333333333333377,0.0001350000000000004
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,250,Parent-Guided (P-PGA),0.012909944487358079,0.01066666666666668,-0.002000000000000035,0.00016266666666666713
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,250,Parent-Guided (Trust-Calibrated),0.011902380714238093,0.009999999999999998,-3.3306690738754695e-17,0.0001416666666666669
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,250,Child-Pilot (k=1),0.011902380714238093,0.009999999999999998,-3.3306690738754695e-17,0.0001416666666666669
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,250,Child-Pilot (Debiased),0.1301749113484685,0.12962962962962968,-0.12962962962962968,0.0001416666666666669
+full_100,P2 -> C3 (Verifier Insertion: Programmer),2,3,verifier_insertion,2.5,250,Oracle (Neyman Hindsight),0.011902380714238093,0.009999999999999998,-3.3306690738754695e-17,0.0001416666666666669
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,125,Uniform,0.006708203932499375,0.0050000000000000044,-0.0030000000000000027,3.600000000000006e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,125,Parent-Guided (P-PGA),0.011180339887498959,0.010000000000000009,-0.0040000000000000036,0.0001090000000000002
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,125,Parent-Guided (Trust-Calibrated),0.011180339887498959,0.010000000000000009,-0.0040000000000000036,0.0001090000000000002
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,125,Child-Pilot (k=1),0.010954451150103333,0.008000000000000007,-0.0040000000000000036,0.00010400000000000018
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,125,Child-Pilot (Debiased),0.033374049207338156,0.031777777777777794,-0.031777777777777794,0.00010400000000000018
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.25,125,Oracle (Neyman Hindsight),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,150,Uniform,0.008514693182963209,0.006500000000000006,-0.003500000000000003,6.02500000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,150,Parent-Guided (P-PGA),0.010124228365658303,0.008500000000000008,-0.005500000000000005,7.225000000000013e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,150,Parent-Guided (Trust-Calibrated),0.010124228365658303,0.008500000000000008,-0.005500000000000005,7.225000000000013e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,150,Child-Pilot (k=1),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,150,Child-Pilot (Debiased),0.06000720121394488,0.059555555555555584,-0.059555555555555584,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,1.5,150,Oracle (Neyman Hindsight),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,200,Uniform,0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,200,Parent-Guided (P-PGA),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,200,Parent-Guided (Trust-Calibrated),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,200,Child-Pilot (k=1),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,200,Child-Pilot (Debiased),0.11534542861004324,0.11511111111111116,-0.11511111111111116,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.0,200,Oracle (Neyman Hindsight),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,250,Uniform,0.009204467514322735,0.006166666666666676,-0.0011666666666666937,8.336111111111136e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,250,Parent-Guided (P-PGA),0.007582875444051551,0.005833333333333324,-0.0015000000000000458,5.524999999999985e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,250,Parent-Guided (Trust-Calibrated),0.007582875444051551,0.005833333333333324,-0.0015000000000000458,5.524999999999985e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,250,Child-Pilot (k=1),0.009219544457292884,0.008000000000000007,0.0019999999999999575,8.10000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,250,Child-Pilot (Debiased),0.1279465605610266,0.1276296296296297,-0.1276296296296297,8.10000000000001e-05
+full_100,P3 -> C8 (Prompt Refinement: Format Rules),3,8,prompt_refinement,2.5,250,Oracle (Neyman Hindsight),0.007637626158259755,0.006666666666666698,-3.3306690738754695e-17,5.8333333333333665e-05
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,125,Uniform,0.015890248582070717,0.014500000000000013,-0.007500000000000007,0.00019625000000000033
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,125,Parent-Guided (P-PGA),0.01483239697419134,0.014000000000000012,-0.007000000000000006,0.0001710000000000003
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,125,Parent-Guided (Trust-Calibrated),0.01483239697419134,0.014000000000000012,-0.007000000000000006,0.0001710000000000003
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,125,Child-Pilot (k=1),0.01483239697419134,0.014000000000000012,-0.007000000000000006,0.0001710000000000003
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,125,Child-Pilot (Debiased),0.037154997337646184,0.034777777777777796,-0.034777777777777796,0.0001710000000000003
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.25,125,Oracle (Neyman Hindsight),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,150,Uniform,0.015329709716755905,0.014000000000000012,-0.007000000000000006,0.00018600000000000032
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,150,Parent-Guided (P-PGA),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,150,Parent-Guided (Trust-Calibrated),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,150,Child-Pilot (k=1),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,150,Child-Pilot (Debiased),0.0605050757997283,0.059555555555555584,-0.059555555555555584,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,1.5,150,Oracle (Neyman Hindsight),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,200,Uniform,0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,200,Parent-Guided (P-PGA),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,200,Parent-Guided (Trust-Calibrated),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,200,Child-Pilot (k=1),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,200,Child-Pilot (Debiased),0.115605224368255,0.11511111111111116,-0.11511111111111116,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.0,200,Oracle (Neyman Hindsight),0.011401754250991391,0.01100000000000001,-0.0040000000000000036,0.0001140000000000002
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,250,Uniform,0.01024695076595961,0.00933333333333335,-0.001666666666666683,0.00010222222222222238
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,250,Parent-Guided (P-PGA),0.009309493362512657,0.00900000000000003,-0.002000000000000024,8.266666666666713e-05
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,250,Parent-Guided (Trust-Calibrated),0.010000000000000014,0.00900000000000003,-4.4408920985006264e-17,0.00010000000000000029
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,250,Child-Pilot (k=1),0.010000000000000014,0.00900000000000003,-4.4408920985006264e-17,0.00010000000000000029
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,250,Child-Pilot (Debiased),0.13001477176811474,0.1296296296296297,-0.1296296296296297,0.0001000000000000003
+full_100,P8 -> C10 (Ensemble Widening: 3 -> 5 solutions),8,10,ensemble_widening,2.5,250,Oracle (Neyman Hindsight),0.010000000000000014,0.00900000000000003,-4.4408920985006264e-17,0.00010000000000000029
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,125,Uniform,0.007245688373094726,0.006500000000000006,-0.004500000000000004,3.225000000000006e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,125,Parent-Guided (P-PGA),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,125,Parent-Guided (Trust-Calibrated),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,125,Child-Pilot (k=1),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,125,Child-Pilot (Debiased),0.030376241528252253,0.029777777777777792,-0.029777777777777792,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.25,125,Oracle (Neyman Hindsight),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,150,Uniform,0.006708203932499376,0.0050000000000000044,-0.0030000000000000027,3.600000000000006e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,150,Parent-Guided (P-PGA),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,150,Parent-Guided (Trust-Calibrated),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,150,Child-Pilot (k=1),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,150,Child-Pilot (Debiased),0.0578674517782548,0.05755555555555558,-0.05755555555555558,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,1.5,150,Oracle (Neyman Hindsight),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,200,Uniform,0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,200,Parent-Guided (P-PGA),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,200,Parent-Guided (Trust-Calibrated),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,200,Child-Pilot (k=1),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,200,Child-Pilot (Debiased),0.1132701348846647,0.11311111111111116,-0.11311111111111116,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.0,200,Oracle (Neyman Hindsight),0.006324555320336764,0.0040000000000000036,-0.0020000000000000018,3.600000000000007e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,250,Uniform,0.0054772255750516665,0.003999999999999981,-0.0006666666666667043,2.9555555555555556e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,250,Parent-Guided (P-PGA),0.0050000000000000044,0.003999999999999971,-5.551115123125783e-17,2.5000000000000045e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,250,Parent-Guided (Trust-Calibrated),0.0050000000000000044,0.003999999999999971,-5.551115123125783e-17,2.5000000000000045e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,250,Child-Pilot (k=1),0.0050000000000000044,0.003999999999999971,-5.551115123125783e-17,2.5000000000000045e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,250,Child-Pilot (Debiased),0.12972602236218825,0.1296296296296297,-0.1296296296296297,2.5000000000000045e-05
+full_100,P10 -> C13 (Verifier Refinement: Post-Ensemble Check),10,13,verifier_insertion,2.5,250,Oracle (Neyman Hindsight),0.0050000000000000044,0.003999999999999971,-5.551115123125783e-17,2.5000000000000045e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,125,Uniform,0.010954451150103331,0.010000000000000009,-0.009000000000000008,3.900000000000007e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,125,Parent-Guided (P-PGA),0.007905694150420957,0.005500000000000005,-0.0025000000000000022,5.625000000000009e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,125,Parent-Guided (Trust-Calibrated),0.007071067811865481,0.006000000000000005,-0.0040000000000000036,3.400000000000006e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,125,Child-Pilot (k=1),0.007071067811865481,0.006000000000000005,-0.0040000000000000036,3.400000000000006e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,125,Child-Pilot (Debiased),0.032308314107886045,0.031777777777777794,-0.031777777777777794,3.400000000000006e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.25,125,Oracle (Neyman Hindsight),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,150,Uniform,0.009354143466934863,0.007500000000000007,-0.007500000000000007,3.1250000000000055e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,150,Parent-Guided (P-PGA),0.010954451150103333,0.008000000000000007,-0.0040000000000000036,0.00010400000000000018
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,150,Parent-Guided (Trust-Calibrated),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,150,Child-Pilot (k=1),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,150,Child-Pilot (Debiased),0.06000720121394488,0.059555555555555584,-0.059555555555555584,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,1.5,150,Oracle (Neyman Hindsight),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,200,Uniform,0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,200,Parent-Guided (P-PGA),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,200,Parent-Guided (Trust-Calibrated),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,200,Child-Pilot (k=1),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,200,Child-Pilot (Debiased),0.11534542861004324,0.11511111111111116,-0.11511111111111116,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.0,200,Oracle (Neyman Hindsight),0.008366600265340763,0.006000000000000005,-0.0040000000000000036,5.40000000000001e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,250,Uniform,0.008547254269972063,0.006500000000000006,-0.0031666666666666844,6.302777777777776e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,250,Parent-Guided (P-PGA),0.007302967433402226,0.006333333333333346,0.0009999999999999788,5.233333333333355e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,250,Parent-Guided (Trust-Calibrated),0.009219544457292913,0.00800000000000003,0.0019999999999999797,8.100000000000056e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,250,Child-Pilot (k=1),0.009219544457292913,0.00800000000000003,0.0019999999999999797,8.100000000000056e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,250,Child-Pilot (Debiased),0.12794656056102657,0.1276296296296297,-0.1276296296296297,8.100000000000056e-05
+full_100,P4 -> C5 (Mutation Shock / Degraded Failure),4,5,mutation_shock,2.5,250,Oracle (Neyman Hindsight),0.007637626158259774,0.00666666666666671,-2.2204460492503132e-17,5.8333333333333956e-05

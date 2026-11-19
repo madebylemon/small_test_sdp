@@ -1,0 +1,31 @@
+question_index,question_snippet,parent_pass_rate,parent_reg_std,child_pass_rate,child_variance,uniform_alloc,parent_guided_alloc,alloc_diff
+0,Jen decides to travel to 3 different countries.  He has to pay $400 for the...,0.0,0.35,0.0,0.0,2,1,-1
+1,Pat has a flower bed that is 111 feet long.  Pat wants to fill her flower b...,0.0,0.35,0.0,0.0,1,1,0
+2,Vince can staple 30 reports every 15 minutes.  If he was stapling reports f...,0.0,0.35,0.0,0.0,1,1,0
+4,Carmen goes to an auction to win an antique desk. She accepts the opening b...,0.0,0.35,0.6,0.3,1,1,0
+5,A food caterer was told to prepare gourmet hot dogs for 36 guests. While mo...,1.0,0.35,0.6,0.3,2,2,0
+8,Anthony is sending out coupons for his pizza parlor through the mail. He wa...,0.2,0.452,0.8,0.2,2,2,0
+9,A teacher uses a 5-inch piece of chalk to write math equations on a chalkbo...,0.4,0.495,0.4,0.3,1,2,1
+10,Carolyn works for a delivery service company that hires on a contract basis...,0.8,0.452,0.8,0.2,1,2,1
+11,A team of 4 painters worked on a mansion for 3/8ths of a day every day for ...,0.6,0.495,0.0,0.0,2,2,0
+12,Jam has three boxes full of pencils and 2 loose pencils which give a total ...,0.0,0.35,1.0,0.0,2,1,-1
+13,"In a room, there are various toys: 5 red cars, 3 action figures, and a doll...",1.0,0.35,1.0,0.0,1,2,1
+14,A dance studio offers lessons to students. It costs $25 per session to rent...,1.0,0.35,1.0,0.0,2,2,0
+15,John drinks a bottle of water every half hour.  A normal sudoku puzzle take...,0.0,0.35,1.0,0.0,2,1,-1
+17,Heather's razors come 4 to a pack and cost $4.00 a pack.  They are currentl...,0.6,0.495,0.6,0.3,2,2,0
+18,"After Andrea saved some money, she then spent the rest of her money on an $...",1.0,0.35,1.0,0.0,1,2,1
+19,A toy manufacturer receives an order for 400 toys. 5 workers are available ...,1.0,0.35,1.0,0.0,2,2,0
+20,Nate's dog can dig six holes a day. He digs for 14 days while Nate is on va...,1.0,0.35,1.0,0.0,2,2,0
+21,Adam really wants to ride the biggest roller coaster at the park. You have ...,1.0,0.35,1.0,0.0,2,2,0
+22,A marketing company pays its employees on a commission-based salary system....,1.0,0.35,1.0,0.0,1,2,1
+23,90 single use contacts come in 1 box and will last Pete 45 days.  Each box ...,0.0,0.35,0.4,0.3,1,1,0
+24,A Tyrannosaurus rex ate half of a small triceratops it had hunted. When it ...,1.0,0.35,1.0,0.0,1,2,1
+25,"Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much m...",1.0,0.35,1.0,0.0,1,1,0
+26,"At the end of the school year, Kate asked her teacher if she could have the...",1.0,0.35,1.0,0.0,1,1,0
+27,India has 4 more than half the number of states in the USA. What's the tota...,1.0,0.35,1.0,0.0,2,1,-1
+30,Andrea has 8 more apples than Jamal and half as many bananas as Jamal. Jama...,1.0,0.35,0.0,0.0,2,1,-1
+36,Mike decides he wants to replace his movie collection with digital versions...,1.0,0.35,1.0,0.0,1,1,0
+37,Frankie watches TV after he finishes his homework every night. On Monday an...,1.0,0.35,1.0,0.0,1,1,0
+40,Billy is peeling and cutting potatoes in preparation for making potato sala...,0.6,0.495,0.6,0.3,2,2,0
+75,Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/...,1.0,0.35,1.0,0.0,2,1,-1
+89,Marisa gets $5 as pocket money every day from her parents. She buys 4 lolli...,1.0,0.35,1.0,0.0,1,1,0

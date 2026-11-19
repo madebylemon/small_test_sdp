@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "dataset": "GSM8K Validation Subset",
+    "evaluated_pairs": 5,
+    "budget_ratios": [
+      1.25,
+      1.5,
+      2.0,
+      2.5
+    ],
+    "disjoint_seed_splits": 10,
+    "held_out_reference": "2 disjoint held-out runs (approximate reference)",
+    "evaluation_pool": "3 disjoint available runs"
+  },
+  "variance_correlations": [
+    {
+      "pearson_r": 0.19832284698021876,
+      "jaccard_unstable": 0.25,
+      "parent_unstable_count": 4,
+      "child_unstable_count": 6,
+      "deterministic_stability": 0.8461538461538461,
+      "pair_label": "P2 -> C3 (Verifier Insertion: Programmer)",
+      "parent_id": 2,
+      "child_id": 3,
+      "edit_type": "verifier_insertion",
+      "parent_mean_score": 0.58,
+      "child_mean_score": 0.6733333333333333
+    },
+    {
+      "pearson_r": 0.5768665963134781,
+      "jaccard_unstable": 0.5555555555555556,
+      "parent_unstable_count": 6,
+      "child_unstable_count": 8,
+      "deterministic_stability": 0.875,
+      "pair_label": "P3 -> C8 (Prompt Refinement: Format Rules)",
+      "parent_id": 3,
+      "child_id": 8,
+      "edit_type": "prompt_refinement",
+      "parent_mean_score": 0.6733333333333333,
+      "child_mean_score": 0.7266666666666667
+    },
+    {
+      "pearson_r": 0.16571224508996754,
+      "jaccard_unstable": 0.1111111111111111,
+      "parent_unstable_count": 8,
+      "child_unstable_count": 2,
+      "deterministic_stability": 0.9545454545454546,
+      "pair_label": "P8 -> C10 (Ensemble Widening: 3 -> 5 solutions)",
+      "parent_id": 8,
+      "child_id": 10,
+      "edit_type": "ensemble_widening",
+      "parent_mean_score": 0.7266666666666667,
+      "child_mean_score": 0.7666666666666667
+    },
+    {
+      "pearson_r": 0.694808333779651,
+      "jaccard_unstable": 0.5,
+      "parent_unstable_count": 2,
+      "child_unstable_count": 1,
+      "deterministic_stability": 1.0,
+      "pair_label": "P10 -> C13 (Verifier Refinement: Post-Ensemble Check)",
+      "parent_id": 10,
+      "child_id": 13,
+      "edit_type": "verifier_insertion",
+      "parent_mean_score": 0.7666666666666667,
+      "child_mean_score": 0.7866666666666666
+    },
+    {
+      "pearson_r": 0.09430854478137522,
+      "jaccard_unstable": 0.18181818181818182,
+      "parent_unstable_count": 7,
+      "child_unstable_count": 6,
+      "deterministic_stability": 0.8260869565217391,
+      "pair_label": "P4 -> C5 (Mutation Shock / Degraded Failure)",
+      "parent_id": 4,
+      "child_id": 5,
+      "edit_type": "mutation_shock",
+      "parent_mean_score": 0.66,
+      "child_mean_score": 0.48
+    }
+  ],
+  "results_summary": [
+    {
+      "subset": "stratified_30",
+      "budget_ratio": 1.25,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.03899356594986273,
+          "mean_mae": 0.03366666666666668,
+          "mean_bias": -0.02433333333333334
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.03953853759204086,
+          "mean_mae": 0.03433333333333335,
+          "mean_bias": -0.02033333333333334
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.03762234926079589,
+          "mean_mae": 0.03266666666666668,
+          "mean_bias": -0.019333333333333338
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.039824052851274876,
+          "mean_mae": 0.035666666666666666,
+          "mean_bias": -0.024333333333333318
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.06256781897487998,
+          "mean_mae": 0.05670370370370372,
+          "mean_bias": -0.05396296296296299
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        }
+      }
+    },
+    {
+      "subset": "stratified_30",
+      "budget_ratio": 1.5,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.0377825139382044,
+          "mean_mae": 0.03133333333333334,
+          "mean_bias": -0.021333333333333336
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.038151236584144585,
+          "mean_mae": 0.032333333333333346,
+          "mean_bias": -0.01833333333333334
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.03658770991404679,
+          "mean_mae": 0.031000000000000017,
+          "mean_bias": -0.01833333333333334
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.03752789505308088,
+          "mean_mae": 0.029666666666666675,
+          "mean_bias": -0.018333333333333337
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.08107782465353969,
+          "mean_mae": 0.07433333333333335,
+          "mean_bias": -0.0738888888888889
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        }
+      }
+    },
+    {
+      "subset": "stratified_30",
+      "budget_ratio": 2.0,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.12953821904237137,
+          "mean_mae": 0.12544444444444453,
+          "mean_bias": -0.12544444444444453
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.034359768868147886,
+          "mean_mae": 0.027666666666666666,
+          "mean_bias": -0.014333333333333333
+        }
+      }
+    },
+    {
+      "subset": "stratified_30",
+      "budget_ratio": 2.5,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.034082674476952055,
+          "mean_mae": 0.028111111111111114,
+          "mean_bias": -0.008777777777777811
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.030813836139016244,
+          "mean_mae": 0.0257777777777778,
+          "mean_bias": -0.004666666666666701
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.03166124323198606,
+          "mean_mae": 0.02577777777777779,
+          "mean_bias": -0.0040000000000000235
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.030044077333489756,
+          "mean_mae": 0.024444444444444453,
+          "mean_bias": -0.004000000000000031
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.13711725350871734,
+          "mean_mae": 0.13362962962962968,
+          "mean_bias": -0.13362962962962968
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.03044537577965726,
+          "mean_mae": 0.02511111111111112,
+          "mean_bias": -3.8857805861880476e-17
+        }
+      }
+    },
+    {
+      "subset": "full_100",
+      "budget_ratio": 1.25,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.010880012509300721,
+          "mean_mae": 0.009600000000000008,
+          "mean_bias": -0.007000000000000006
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.010964073213912257,
+          "mean_mae": 0.009200000000000009,
+          "mean_bias": -0.0050000000000000044
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.010546254517673357,
+          "mean_mae": 0.009100000000000007,
+          "mean_bias": -0.0047000000000000045
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.01080297364613765,
+          "mean_mae": 0.008600000000000007,
+          "mean_bias": -0.0050000000000000044
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.0342217688797062,
+          "mean_mae": 0.032777777777777795,
+          "mean_bias": -0.032777777777777795
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        }
+      }
+    },
+    {
+      "subset": "full_100",
+      "budget_ratio": 1.5,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.010756237444932995,
+          "mean_mae": 0.009100000000000007,
+          "mean_bias": -0.005900000000000005
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.010676473764840613,
+          "mean_mae": 0.008800000000000007,
+          "mean_bias": -0.0050000000000000044
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.009908010159360292,
+          "mean_mae": 0.008200000000000008,
+          "mean_bias": -0.004400000000000004
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.060304566169856175,
+          "mean_mae": 0.05965555555555559,
+          "mean_bias": -0.05965555555555559
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        }
+      }
+    },
+    {
+      "subset": "full_100",
+      "budget_ratio": 2.0,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.11555018341534455,
+          "mean_mae": 0.11521111111111115,
+          "mean_bias": -0.11521111111111115
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.009556484539296787,
+          "mean_mae": 0.007700000000000007,
+          "mean_bias": -0.004100000000000004
+        }
+      }
+    },
+    {
+      "subset": "full_100",
+      "budget_ratio": 2.5,
+      "policies": {
+        "Uniform": {
+          "mean_rmse": 0.009112708206990387,
+          "mean_mae": 0.007333333333333343,
+          "mean_bias": -0.0020000000000000287
+        },
+        "Parent-Guided (P-PGA)": {
+          "mean_rmse": 0.008421056145464904,
+          "mean_mae": 0.00716666666666667,
+          "mean_bias": -0.0009000000000000365
+        },
+        "Parent-Guided (Trust-Calibrated)": {
+          "mean_rmse": 0.008740960123116516,
+          "mean_mae": 0.00736666666666667,
+          "mean_bias": 9.99999999999601e-05
+        },
+        "Child-Pilot (k=1)": {
+          "mean_rmse": 0.009068293925764782,
+          "mean_mae": 0.007800000000000007,
+          "mean_bias": 0.0007999999999999608
+        },
+        "Child-Pilot (Debiased)": {
+          "mean_rmse": 0.12916176532016493,
+          "mean_mae": 0.1288296296296297,
+          "mean_bias": -0.1288296296296297
+        },
+        "Oracle (Neyman Hindsight)": {
+          "mean_rmse": 0.008435526606151527,
+          "mean_mae": 0.007266666666666681,
+          "mean_bias": -3.774758283725532e-17
+        }
+      }
+    }
+  ]
+}
